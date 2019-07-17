@@ -12,7 +12,7 @@ RUN apt-get update && \
   ca-certificates \
   lmodern \
   texlive-full \
-  fonts-font-awesome
+  fonts-font-awesome && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
