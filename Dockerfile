@@ -9,6 +9,7 @@ RUN apt-get update && \
   apt-get install --yes --no-install-recommends \
   make \
   git \
+  openssh-client \
   ca-certificates \
   lmodern \
   texlive-full \
