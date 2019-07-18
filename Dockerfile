@@ -13,7 +13,9 @@ RUN apt-get update && \
   ca-certificates \
   lmodern \
   texlive-full \
-  fonts-font-awesome && \
+  python3-pip \
+  fonts-font-awesome \
+  awscli && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
